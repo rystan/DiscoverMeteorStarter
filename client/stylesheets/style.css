@@ -134,23 +134,25 @@ body {
   text-align: center;
   height: 60px;
   line-height: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 .load-more:hover {
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.1);
-}
-.posts .spinner-container {
+  background: rgba(0, 0, 0, 0.1); }
+
+.posts .spinner-container{
   position: relative;
   height: 100px;
 }
-.jumbotron {
+
+.jumbotron{
   text-align: center;
 }
-.jumbotron h2 {
+.jumbotron h2{
   font-size: 60px;
   font-weight: 100;
 }
+
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 0;
@@ -165,6 +167,7 @@ body {
     opacity: 0;
   }
 }
+
 @keyframes fadeOut {
   0% {
     opacity: 0;
@@ -190,9 +193,9 @@ body {
   pointer-events: none;
 }
 .alert {
-  animation: fadeOut 2700ms ease-in 0s 1 forwards;
+          animation: fadeOut 2700ms ease-in 0s 1 forwards;
   -webkit-animation: fadeOut 2700ms ease-in 0s 1 forwards;
-  -moz-animation: fadeOut 2700ms ease-in 0s 1 forwards;
+     -moz-animation: fadeOut 2700ms ease-in 0s 1 forwards;
   width: 250px;
   float: right;
   clear: both;
